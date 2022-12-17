@@ -7,6 +7,14 @@ public class Car {
     private int speed;
     private int stock;
 
+    //constructor
+    public Car(String model, String color, String fuelType, int speed) {
+        this.model = model;
+        this.color = color;
+        this.fuelType = fuelType;
+        this.speed = speed;
+    }
+
     //methods
     public int countCarStock (int) {
     return stock;
